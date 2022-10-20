@@ -1,11 +1,15 @@
 body{
     /* background-color:#9DE0FC; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 #header{
     padding:1rem;
-    background-color:#000000;
-    color:#CCEFF2;
+    /* background-color:rgba(157, 224, 252, 0.8); */
+    /* color:black; */
+    background-color:black;
+    color:white;
     position:fixed;
     width:100%;
 }
@@ -23,12 +27,14 @@ div#logo img{
     width:auto;
 }
 
-/* div#navbar{
+div#navbar{
     margin-top:0.5rem;
-} */
+}
 
 div#navbar span{
     padding:0.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 div#contact{
@@ -36,10 +42,12 @@ div#contact{
 }
 
 div#right button{
-    color:#CCEFF2;
+    /* color:#CCEFF2; */
     height: 2rem;
     width: 2rem;
-    background-color:#000000;
+    /* background-color:#000000; */
+    background-color:rgba(157, 224, 252, 0);
+    color:white;
     border:0px;
     margin-right:3rem;
     /* background: url("images/search.png") no-repeat #f4f4f4;
@@ -49,4 +57,30 @@ div#right button{
 .big-img img{
     margin-top:4rem;
     width:100%;
+}
+
+div#slogan{
+    position:absolute;
+    /* width:50%; */
+    left:5%;
+    bottom:50%;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color:#35406e; */
+    color:white;
+
+}
+
+div#info{
+    justify-content: left;
+    border:1px solid blue;
+}
+
+div#info div{
+    background-color:black;
+    border:3px solid #00548c;
+    color:white;
+    width:50%;
+    min-height:100%;
+    height:100%;
 }
